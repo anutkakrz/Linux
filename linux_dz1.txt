@@ -1,0 +1,16 @@
+   0 mkdir /home/animals
+   1 mkdir /home/animals/dogs
+   2 mkdir /home/animals/cats
+   3 mkdir /home/animals/fish
+   4 touch /home/animals/dogs/pluto
+   5 touch /home/animals/cats/garfield
+   6 touch /home/animals/fish/nemo
+   7 touch /tmp/adam
+   8 cp --help
+   9 mkdir /home/humans
+  10 cp /tmp/adam /home/humans/adam
+  11 touch /tmp/evA
+  12 mv /tmp/evA /opt/eve
+  13 mv /opt/eve /home/humans/eve
+  14 tree /home
+  15 history >linux_dz1.txt
