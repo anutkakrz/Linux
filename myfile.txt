@@ -1,0 +1,10 @@
+02/22/24
+2.3G
+   0 date '+%D' > myfile.txt
+   1 cat myfile.txt
+   2 df -h
+   3 df -h | grep 47 | awk '{print $3}' >> myfile.txt
+   4 cat myfile.txt
+   5 history >> myfile.txt
+processor	: 0
+AuthenticX86
