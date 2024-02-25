@@ -1,0 +1,8 @@
+   0 vi /tmp/file.txt
+   1 df -h | head -3 > /tmp/file.txt
+   2 chmod g+w
+   3 chmod g+w /tmp/file.txt
+   4 chmod u-r /tmp/file.txt
+   5 chmod o+x /tmp/file.txt
+   6 history >> tmp/myfile.txt
+   7 history >> /tmp/myfile.txt
