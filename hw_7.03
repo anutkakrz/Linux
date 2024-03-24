@@ -1,0 +1,12 @@
+
+#!/bin/bash
+
+set -e
+
+touch /opt/150124_morning/hanna_krz/1.txt
+cat /etc/group |head -2 |tail -1 >> /opt/150124_morning/hanna_krz/1.txt
+
+ps -ef >> /opt/150124_morning/hanna_krz/1.txt
+
+
+ps -ef | wc -l >>/opt/150124_morning/hanna_krz/1.txt
